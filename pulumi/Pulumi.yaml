@@ -1,0 +1,8 @@
+name: aws-ts-ec2-vpc
+runtime: nodejs
+description: Examples of Deploy EC2
+template:
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

@@ -1,0 +1,12 @@
+apiVersion: ec2.aws.upbound.io/v1beta1
+kind: VPC
+metadata:
+  name: sample-vpc
+  annotations:
+    meta.upbound.io/example-id: ec2/v1beta1/vpc
+spec:
+  forProvider:
+    region: us-east-1
+    cidrBlock: 10.2.0.0/16
+    tags:
+      Name: DemoVpc

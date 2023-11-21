@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@pulumi/aws": "^6.9.0"
+  }
+}
